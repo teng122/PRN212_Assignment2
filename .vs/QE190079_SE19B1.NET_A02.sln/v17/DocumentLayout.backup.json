@@ -1,0 +1,302 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\QE190079WPF.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\QE190079WPF.csproj|solutionrelative:wpfapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\dataaccesslayer\\fuminihotelmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\fuminihotelmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\dataaccesslayer\\bookingdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\bookingdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\dataaccesslayer\\bookingreservationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\bookingreservationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\dataaccesslayer\\roominformationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\roominformationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\dataaccesslayer\\roomtypedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\roomtypedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\dataaccesslayer\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{94FE73AF-A6A1-4AE8-9F8F-9548841FF8B8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\views\\customermainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\views\\customermainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\views\\customermainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\views\\customermainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\views\\adminmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\views\\adminmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\wpfapp\\views\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26D1B4F9-1630-401E-A86D-EE8EDC3FA72A}|WpfApp\\WPFApp.csproj|solutionrelative:wpfapp\\views\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|solutionrelative:services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0E6F485-CC01-4957-947D-4AEDFAA5EA27}|Services\\Services.csproj|solutionrelative:services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|solutionrelative:repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|c:\\users\\admin\\source\\repos\\prn212_assignment1_fa25\\repositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6278A016-8F7D-45C5-A014-94760E6E13F8}|Repositories\\Repositories.csproj|solutionrelative:repositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoomInformationDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\RoomInformationDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\RoomInformationDAO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\RoomInformationDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\RoomInformationDAO.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAwwFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T06:01:21.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoomTypeDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\RoomTypeDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\RoomTypeDAO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\RoomTypeDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\RoomTypeDAO.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T06:01:21.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\CustomerDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\CustomerDAO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\CustomerDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\CustomerDAO.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T06:01:05.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\appsettings.json",
+              "RelativeDocumentMoniker": "WpfApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\appsettings.json",
+              "RelativeToolTip": "WpfApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T05:55:35.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataAccessLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeToolTip": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T05:41:21.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FUMiniHotelManagementContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\FUMiniHotelManagementContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\FUMiniHotelManagementContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\FUMiniHotelManagementContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\FUMiniHotelManagementContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA9wCUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T05:41:56.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerMainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\CustomerMainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\CustomerMainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\CustomerMainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\CustomerMainWindow.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T00:03:58.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerMainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\CustomerMainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\CustomerMainWindow.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\CustomerMainWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\CustomerMainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-23T00:03:42.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminMainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\AdminMainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\AdminMainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\AdminMainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\AdminMainWindow.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwBYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T23:56:26.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminMainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\AdminMainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\AdminMainWindow.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\WpfApp\\Views\\AdminMainWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\AdminMainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T23:54:26.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\Services\\BookingService.cs",
+              "RelativeToolTip": "Services\\BookingService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T23:53:15.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\Services\\IBookingService.cs",
+              "RelativeDocumentMoniker": "Services\\IBookingService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\Services\\IBookingService.cs",
+              "RelativeToolTip": "Services\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T23:52:46.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BookingRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "Repositories\\BookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T23:51:30.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\Repositories\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IBookingRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\Repositories\\IBookingRepository.cs",
+              "RelativeToolTip": "Repositories\\IBookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T23:51:06.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingDetailDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\BookingDetailDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\BookingDetailDAO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\BookingDetailDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\BookingDetailDAO.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAwwE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T23:48:51.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingReservationDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\BookingReservationDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\BookingReservationDAO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PRN212_Assignment1_FA25\\DataAccessLayer\\BookingReservationDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\BookingReservationDAO.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAwwFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:38:40.971Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

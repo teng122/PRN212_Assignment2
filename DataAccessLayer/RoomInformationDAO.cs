@@ -1,4 +1,5 @@
 ﻿using BusinessObject;
+using Microsoft.EntityFrameworkCore;
 
 namespace DAO
 {
@@ -27,65 +28,60 @@ namespace DAO
 
         public List<RoomInformation> GetRooms()
         {
-            var rooms = DataProvider.Instance.Rooms;
-            var roomTypes = DataProvider.Instance.RoomTypes;
-
-            foreach (var room in rooms)
-            {
-                room.RoomType = roomTypes.FirstOrDefault(rt => rt.RoomTypeID == room.RoomTypeID);
-            }
-
-            return rooms;
+            using var context = new FUMiniHotelManagementContext();
+            return context.RoomInformations
+                .Include(r => r.RoomType)
+                .ToList();
         }
 
         public RoomInformation? GetRoomById(int id)
         {
-            var room = DataProvider.Instance.Rooms.FirstOrDefault(r => r.RoomID == id);
-            if (room != null)
-            {
-                room.RoomType = DataProvider.Instance.RoomTypes
-                    .FirstOrDefault(rt => rt.RoomTypeID == room.RoomTypeID);
-            }
-            return room;
+            using var context = new FUMiniHotelManagementContext();
+            return context.RoomInformations
+                .Include(r => r.RoomType)
+                .FirstOrDefault(r => r.RoomID == id);
         }
 
         public void AddRoom(RoomInformation room)
         {
-            room.RoomID = DataProvider.Instance.Rooms.Any()
-                ? DataProvider.Instance.Rooms.Max(r => r.RoomID) + 1
-                : 1;
-            DataProvider.Instance.Rooms.Add(room);
+            using var context = new FUMiniHotelManagementContext();
+            context.RoomInformations.Add(room);
+            context.SaveChanges();
         }
 
         public void UpdateRoom(RoomInformation room)
         {
-            var existingRoom = GetRoomById(room.RoomID);
-            if (existingRoom != null)
-            {
-                existingRoom.RoomNumber = room.RoomNumber;
-                existingRoom.RoomDescription = room.RoomDescription;
-                existingRoom.RoomMaxCapacity = room.RoomMaxCapacity;
-                existingRoom.RoomStatus = room.RoomStatus;
-                existingRoom.RoomPricePerDate = room.RoomPricePerDate;
-                existingRoom.RoomTypeID = room.RoomTypeID;
-            }
+            using var context = new FUMiniHotelManagementContext();
+            context.RoomInformations.Update(room);
+            context.SaveChanges();
         }
 
         public void DeleteRoom(int id)
         {
-            var room = GetRoomById(id);
+            using var context = new FUMiniHotelManagementContext();
+            var room = context.RoomInformations.FirstOrDefault(r => r.RoomID == id);
             if (room != null)
             {
                 room.RoomStatus = 2; // Soft delete
+                context.SaveChanges();
             }
         }
 
         public List<RoomInformation> SearchRooms(string keyword)
         {
-            return GetRooms()
-                .Where(r => r.RoomNumber.Contains(keyword, StringComparison.OrdinalIgnoreCase) ||
-                           r.RoomDescription.Contains(keyword, StringComparison.OrdinalIgnoreCase))
+            using var context = new FUMiniHotelManagementContext();
+            return context.RoomInformations
+                .Include(r => r.RoomType)
+                .Where(r => r.RoomNumber.Contains(keyword) ||
+                           r.RoomDescription.Contains(keyword))
                 .ToList();
+        }
+
+        // Check if room has any bookings (for delete logic)
+        public bool HasBookings(int roomId)
+        {
+            using var context = new FUMiniHotelManagementContext();
+            return context.BookingDetails.Any(bd => bd.RoomID == roomId);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using BusinessObject;
+using Microsoft.EntityFrameworkCore;
 
 namespace DAO
 {
@@ -27,54 +28,60 @@ namespace DAO
 
         public List<BookingReservation> GetAllBookings()
         {
-            var bookings = DataProvider.Instance.BookingReservations;
-            var customers = DataProvider.Instance.Customers;
-
-            foreach (var booking in bookings)
-            {
-                booking.Customer = customers.FirstOrDefault(c => c.CustomerID == booking.CustomerID);
-            }
-
-            return bookings;
+            using var context = new FUMiniHotelManagementContext();
+            return context.BookingReservations
+                .Include(b => b.Customer)
+                .ToList();
         }
 
         public List<BookingReservation> GetBookingsByDateRange(DateTime startDate, DateTime endDate)
         {
-            var bookings = DataProvider.Instance.BookingReservations
-                .Where(b => b.BookingDate.Date >= startDate.Date && b.BookingDate.Date <= endDate.Date)
+            using var context = new FUMiniHotelManagementContext();
+            return context.BookingReservations
+                .Include(b => b.Customer)
+                .Where(b => b.BookingDate >= startDate && b.BookingDate <= endDate)
                 .OrderByDescending(b => b.TotalPrice)
                 .ToList();
-
-            var customers = DataProvider.Instance.Customers;
-
-            foreach (var booking in bookings)
-            {
-                booking.Customer = customers.FirstOrDefault(c => c.CustomerID == booking.CustomerID);
-            }
-
-            return bookings;
         }
 
         public BookingReservation? GetBookingById(int id)
         {
-            var booking = DataProvider.Instance.BookingReservations
+            using var context = new FUMiniHotelManagementContext();
+            return context.BookingReservations
+                .Include(b => b.Customer)
                 .FirstOrDefault(b => b.BookingReservationID == id);
-
-            if (booking != null)
-            {
-                booking.Customer = DataProvider.Instance.Customers
-                    .FirstOrDefault(c => c.CustomerID == booking.CustomerID);
-            }
-
-            return booking;
         }
 
         public void AddBooking(BookingReservation booking)
         {
-            booking.BookingReservationID = DataProvider.Instance.BookingReservations.Any()
-                ? DataProvider.Instance.BookingReservations.Max(b => b.BookingReservationID) + 1
-                : 1;
-            DataProvider.Instance.BookingReservations.Add(booking);
+            using var context = new FUMiniHotelManagementContext();
+
+            // Generate new ID manually (since IDENTITY is not used in DB)
+            var maxId = context.BookingReservations.Any()
+                ? context.BookingReservations.Max(b => b.BookingReservationID)
+                : 0;
+            booking.BookingReservationID = maxId + 1;
+
+            context.BookingReservations.Add(booking);
+            context.SaveChanges();
+        }
+
+        public void UpdateBooking(BookingReservation booking)
+        {
+            using var context = new FUMiniHotelManagementContext();
+            context.BookingReservations.Update(booking);
+            context.SaveChanges();
+        }
+
+        public void DeleteBooking(int id)
+        {
+            using var context = new FUMiniHotelManagementContext();
+            var booking = context.BookingReservations.FirstOrDefault(b => b.BookingReservationID == id);
+            if (booking != null)
+            {
+                context.BookingReservations.Remove(booking);
+                context.SaveChanges();
+            }
         }
     }
 }

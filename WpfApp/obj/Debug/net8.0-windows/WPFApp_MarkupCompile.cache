@@ -1,19 +1,19 @@
-﻿WPFApp
+﻿WpfApp
 
 
 winexe
 C#
 .cs
-C:\Users\ADMIN\Source\Repos\PRN212_Assignment1_FA25\WpfApp\obj\Debug\net8.0-windows\
-WPFApp
+C:\Users\ADMIN\source\repos\PRN212_Assignment2\WpfApp\obj\Debug\net8.0-windows\
+WpfApp
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\ADMIN\Source\Repos\PRN212_Assignment1_FA25\WpfApp\App.xaml
+C:\Users\ADMIN\source\repos\PRN212_Assignment2\WpfApp\App.xaml
 541192076
 
-8604415194
-211-869338574
+8378937835
+2391772043654
 Views\AdminMainWindow.xaml;Views\CustomerDialog.xaml;Views\CustomerMainWindow.xaml;Views\LoginWindow.xaml;Views\RoomDialog.xaml;
 
 False

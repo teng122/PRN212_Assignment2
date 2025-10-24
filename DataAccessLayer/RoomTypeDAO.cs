@@ -27,12 +27,14 @@ namespace DAO
 
         public List<RoomType> GetRoomTypes()
         {
-            return DataProvider.Instance.RoomTypes;
+            using var context = new FUMiniHotelManagementContext();
+            return context.RoomTypes.ToList();
         }
 
         public RoomType? GetRoomTypeById(int id)
         {
-            return DataProvider.Instance.RoomTypes.FirstOrDefault(rt => rt.RoomTypeID == id);
+            using var context = new FUMiniHotelManagementContext();
+            return context.RoomTypes.FirstOrDefault(rt => rt.RoomTypeID == id);
         }
     }
 }

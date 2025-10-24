@@ -58,7 +58,7 @@ namespace HotelManager {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/WPFApp;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/QE190079WPF;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

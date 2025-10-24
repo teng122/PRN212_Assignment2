@@ -27,55 +27,53 @@ namespace DAO
 
         public List<Customer> GetCustomers()
         {
-            return DataProvider.Instance.Customers;
+            using var context = new FUMiniHotelManagementContext();
+            return context.Customers.ToList();
         }
 
         public Customer? GetCustomerById(int id)
         {
-            return DataProvider.Instance.Customers.FirstOrDefault(c => c.CustomerID == id);
+            using var context = new FUMiniHotelManagementContext();
+            return context.Customers.FirstOrDefault(c => c.CustomerID == id);
         }
 
         public Customer? GetCustomerByEmail(string email)
         {
-            return DataProvider.Instance.Customers.FirstOrDefault(c => c.EmailAddress == email);
+            using var context = new FUMiniHotelManagementContext();
+            return context.Customers.FirstOrDefault(c => c.EmailAddress == email);
         }
 
         public void AddCustomer(Customer customer)
         {
-            customer.CustomerID = DataProvider.Instance.Customers.Any()
-                ? DataProvider.Instance.Customers.Max(c => c.CustomerID) + 1
-                : 1;
-            DataProvider.Instance.Customers.Add(customer);
+            using var context = new FUMiniHotelManagementContext();
+            context.Customers.Add(customer);
+            context.SaveChanges();
         }
 
         public void UpdateCustomer(Customer customer)
         {
-            var existingCustomer = GetCustomerById(customer.CustomerID);
-            if (existingCustomer != null)
-            {
-                existingCustomer.CustomerFullName = customer.CustomerFullName;
-                existingCustomer.Telephone = customer.Telephone;
-                existingCustomer.EmailAddress = customer.EmailAddress;
-                existingCustomer.CustomerBirthday = customer.CustomerBirthday;
-                existingCustomer.CustomerStatus = customer.CustomerStatus;
-                existingCustomer.Password = customer.Password;
-            }
+            using var context = new FUMiniHotelManagementContext();
+            context.Customers.Update(customer);
+            context.SaveChanges();
         }
 
         public void DeleteCustomer(int id)
         {
-            var customer = GetCustomerById(id);
+            using var context = new FUMiniHotelManagementContext();
+            var customer = context.Customers.FirstOrDefault(c => c.CustomerID == id);
             if (customer != null)
             {
                 customer.CustomerStatus = 2; // Soft delete
+                context.SaveChanges();
             }
         }
 
         public List<Customer> SearchCustomers(string keyword)
         {
-            return DataProvider.Instance.Customers
-                .Where(c => c.CustomerFullName.Contains(keyword, StringComparison.OrdinalIgnoreCase) ||
-                           c.EmailAddress.Contains(keyword, StringComparison.OrdinalIgnoreCase) ||
+            using var context = new FUMiniHotelManagementContext();
+            return context.Customers
+                .Where(c => c.CustomerFullName.Contains(keyword) ||
+                           c.EmailAddress.Contains(keyword) ||
                            c.Telephone.Contains(keyword))
                 .ToList();
         }
