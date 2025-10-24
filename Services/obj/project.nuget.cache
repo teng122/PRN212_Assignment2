@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "oFvf2Uq82GI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ADMIN\\Source\\Repos\\PRN212_Assignment1_FA25\\Services\\Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.10\\microsoft.extensions.configuration.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.10\\microsoft.extensions.primitives.9.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
